@@ -1,0 +1,5 @@
+[console_scripts]
+cinematica_inversa = visual_pubsub.cinematica_inversa:main
+pub_joints = visual_pubsub.pub_joints:main
+sub_joints = visual_pubsub.sub_joints:main
+
