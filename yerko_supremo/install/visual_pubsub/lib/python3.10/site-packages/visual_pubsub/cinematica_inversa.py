@@ -23,7 +23,7 @@ class InverseKinematics(Node):
         self.l3 = 0.8
 
         self.timer = self.create_timer(0.1, self.update_joints)
-        self.target_pos = np.array([3.0, 2.0, 0.0], dtype =float)  # Default target
+        self.target_pos = np.array([-3.0, 1.0, 0.0], dtype =float)  # Default target
 
         # Parameters for IK
         self.step_size = 0.05
