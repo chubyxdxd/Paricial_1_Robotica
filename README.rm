@@ -1,0 +1,16 @@
+Parcial1 -> Ejercicio Publicador y Subscriptor
+Yerko_Supremo -> Dedo indice
+Yerko_Pulgarcito -> Dedo pulgar
+
+### Para compilar el ws Parcial1 ###
+1. borrar las carpetas log, install, build
+2. colcon build
+3. source install/setup.bash
+4. ros2 launch ex1 sistema.launch.py
+
+### Para compilar cualquier dedo ###
+1. borrar las carpetas log, install, build
+2. colcon build
+3. source install/setup.bash
+4. ros2 launch robot_description view_robot.launch.py use_jsp:=false gui:=false
+5. Desde otra terminal correr "ros2 run visual_pubsub cinematica_inversa" o en todo caso "inverse_kinematics"
